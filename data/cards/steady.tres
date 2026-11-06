@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="RewardCard" format=3]
+
+[ext_resource type="Script" path="res://scripts/data/reward_card.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/icons/reward_calm.png" id="2"]
+
+[resource]
+script = ExtResource("1")
+id = "steady"
+display_name = "镇魂"
+description = "每一场都按你高一级算（像镇魂钉）。"
+duration = "下一夜每一场搏斗"
+icon = ExtResource("2")
+effect = "steady"
+amount = 1.0
+uses = 0

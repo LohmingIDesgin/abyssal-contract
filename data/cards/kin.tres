@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="RewardCard" format=3]
+
+[ext_resource type="Script" path="res://scripts/data/reward_card.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/icons/boon_kin.png" id="2"]
+
+[resource]
+script = ExtResource("1")
+id = "kin"
+display_name = "同族之献"
+description = "献上的渔获里，同一种族每凑满两条，这两条祭值 +15%（一夜最多加献上总数的三成）。"
+duration = "永久 · 供奉时"
+icon = ExtResource("2")
+effect = "kin"
+amount = 0.15
+uses = 0
+cap = 0.3
+permanent = true
+tags = PackedStringArray("tribute")

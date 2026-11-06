@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="AdditiveData" format=3]
+
+[ext_resource type="Script" path="res://scripts/data/additive_data.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/additives/phosphor_bug.png" id="2"]
+
+[resource]
+script = ExtResource("1")
+id = "phosphor_bug"
+display_name = "磷火虫"
+description = "夜里在船灯周围打转的虫子，捏碎后会发光一阵。追光的东西会凑过来，怕光的会躲开。"
+name_token = "磷"
+aspect = "glow"
+strength = 1.2
+icon = ExtResource("2")
+unlimited = false

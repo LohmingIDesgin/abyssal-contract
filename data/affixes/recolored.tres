@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="AffixData" format=3]
+
+[ext_resource type="Script" path="res://scripts/data/affix_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = "recolored"
+display_name = "变色"
+description = "鳞色和同类全不一样，像在什么颜料里泡过。"
+weight = 0.0
+food_mult = 1.0
+energy_mult = 1.0
+material_mults = {}
+tribute_bonus = 0.4
+special = true
+chance = 0.03

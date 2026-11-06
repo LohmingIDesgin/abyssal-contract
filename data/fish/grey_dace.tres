@@ -1,0 +1,29 @@
+[gd_resource type="Resource" script_class="FishData" format=3]
+
+[ext_resource type="Script" path="res://scripts/data/fish_data.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/creatures/grey_dace.png" id="2"]
+[ext_resource type="Texture2D" path="res://assets/creatures/grey_dace_juvenile.png" id="3"]
+[ext_resource type="Texture2D" path="res://assets/creatures/grey_dace_adult.png" id="4"]
+
+[resource]
+script = ExtResource("1")
+id = "grey_dace"
+display_name = "灰鲦"
+description = "什么都吃，什么时候都在。"
+icon = ExtResource("2")
+icon_juvenile = ExtResource("3")
+icon_adult = ExtResource("4")
+preferences = {"blood": 0.4, "rot": 0.2, "filth": 0.2}
+rarity_weight = 1.0
+struggle = 0.4
+endurance = 6.5
+level_min = 1
+level_max = 1
+adult_body = 1
+yield_base = 3.0
+material_ratio = {"flesh": 0.7, "shell": 0.2, "glow": 0.1}
+motion_style = "fish"
+motion_amplitude = 0.035
+motion_speed = 1.8
+motion_wavelength = 1.2
+tribute_base = 300.0

@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="AffixData" format=3]
+
+[ext_resource type="Script" path="res://scripts/data/affix_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = "iron_bone"
+display_name = "铁骨"
+description = "骨头沉得像铁，敲上去当当响。"
+weight = 1.0
+food_mult = 1.0
+energy_mult = 1.0
+material_mults = {"shell": 1.7}
+tribute_bonus = 0.08

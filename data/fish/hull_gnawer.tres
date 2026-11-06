@@ -1,0 +1,29 @@
+[gd_resource type="Resource" script_class="FishData" format=3]
+
+[ext_resource type="Script" path="res://scripts/data/fish_data.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/creatures/hull_gnawer.png" id="2"]
+[ext_resource type="Texture2D" path="res://assets/creatures/hull_gnawer_juvenile.png" id="3"]
+[ext_resource type="Texture2D" path="res://assets/creatures/hull_gnawer_adult.png" id="4"]
+
+[resource]
+script = ExtResource("1")
+id = "hull_gnawer"
+display_name = "嚼船鲀"
+description = "满嘴碎木屑。船底那几道新的牙印，就是它啃的。"
+icon = ExtResource("2")
+icon_juvenile = ExtResource("3")
+icon_adult = ExtResource("4")
+preferences = {"blood": 0.7, "rot": 0.4, "filth": 0.3}
+rarity_weight = 0.7
+struggle = 0.45
+endurance = 6.5
+level_min = 2
+level_max = 3
+adult_body = 3
+yield_base = 5.0
+material_ratio = {"flesh": 0.7, "shell": 0.25, "glow": 0.05}
+motion_style = "puffer"
+motion_amplitude = 0.035
+motion_speed = 1.2
+motion_wavelength = 1.2
+tribute_base = 265.0

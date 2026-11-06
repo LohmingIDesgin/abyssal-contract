@@ -1,0 +1,29 @@
+[gd_resource type="Resource" script_class="FishData" format=3]
+
+[ext_resource type="Script" path="res://scripts/data/fish_data.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/creatures/mist_puffer.png" id="2"]
+[ext_resource type="Texture2D" path="res://assets/creatures/mist_puffer_juvenile.png" id="3"]
+[ext_resource type="Texture2D" path="res://assets/creatures/mist_puffer_adult.png" id="4"]
+
+[resource]
+script = ExtResource("1")
+id = "mist_puffer"
+display_name = "雾鳞小鲀"
+description = "鳞片里裹着雾。一受惊就鼓成一团灰白，像从海面上撕下来的一小块雾。"
+icon = ExtResource("2")
+icon_juvenile = ExtResource("3")
+icon_adult = ExtResource("4")
+preferences = {"glow": 0.6, "cold": 0.4, "rot": -0.3}
+rarity_weight = 0.8
+struggle = 0.35
+endurance = 6.0
+level_min = 1
+level_max = 1
+adult_body = 0
+yield_base = 2.5
+material_ratio = {"flesh": 0.35, "shell": 0.15, "glow": 0.5}
+motion_style = "puffer"
+motion_amplitude = 0.045
+motion_speed = 1.9
+motion_wavelength = 1.0
+tribute_base = 300.0

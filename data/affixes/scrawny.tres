@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="AffixData" format=3]
+
+[ext_resource type="Script" path="res://scripts/data/affix_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = "scrawny"
+display_name = "枯瘦"
+description = "皮包着骨头，饿了很久。"
+weight = 1.0
+food_mult = 0.6
+energy_mult = 1.0
+material_mults = {}
+tribute_bonus = -0.2

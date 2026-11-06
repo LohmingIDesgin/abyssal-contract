@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="PromiseData" format=3]
+
+[ext_resource type="Script" path="res://scripts/data/promise_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = "good_name"
+display_name = "名誉"
+line = "Your name, washed clean of spit."
+thing = "被人唾弃的名声，洗净如初"
+returns = PackedStringArray("你的名声洗净如初。当年唾你的人，如今提起你都低下头。", "你的名声洗净如初，再没人提起那件事。", "你的名声洗净了。只是你走过的地方，总留着一道水痕。", "名声洗净了——人们记住的，却是另一个名字。")

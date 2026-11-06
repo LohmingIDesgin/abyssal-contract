@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="ItemData" format=3]
+
+[ext_resource type="Script" path="res://scripts/data/item_data.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/icons/abyss_eye.png" id="2"]
+
+[resource]
+script = ExtResource("1")
+id = "abyss_eye"
+display_name = "窥渊之眼"
+description = "一颗还会转的眼珠。上钩以后捏碎它，就能看清线那头是什么：几级、带什么词条。"
+icon = ExtResource("2")
+effect = "identify"

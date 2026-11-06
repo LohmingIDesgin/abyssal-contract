@@ -1,0 +1,29 @@
+[gd_resource type="Resource" script_class="FishData" format=3]
+
+[ext_resource type="Script" path="res://scripts/data/fish_data.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/creatures/drowned_hand.png" id="2"]
+[ext_resource type="Texture2D" path="res://assets/creatures/drowned_hand_juvenile.png" id="3"]
+[ext_resource type="Texture2D" path="res://assets/creatures/drowned_hand_adult.png" id="4"]
+
+[resource]
+script = ExtResource("1")
+id = "drowned_hand"
+display_name = "溺者之手"
+description = "严格来说不是鱼。它会抓住任何有人味的东西。"
+icon = ExtResource("2")
+icon_juvenile = ExtResource("3")
+icon_adult = ExtResource("4")
+preferences = {"filth": 0.8, "grudge": 0.7}
+rarity_weight = 0.5
+struggle = 0.45
+endurance = 7.0
+level_min = 2
+level_max = 4
+adult_body = 2
+yield_base = 5.0
+material_ratio = {"flesh": 0.3, "shell": 0.5, "glow": 0.2}
+motion_style = "hand"
+motion_amplitude = 0.012
+motion_speed = 0.5
+motion_wavelength = 2.2
+tribute_base = 240.0

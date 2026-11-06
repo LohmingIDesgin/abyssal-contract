@@ -1,0 +1,29 @@
+[gd_resource type="Resource" script_class="FishData" format=3]
+
+[ext_resource type="Script" path="res://scripts/data/fish_data.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/creatures/weeping_flounder.png" id="2"]
+[ext_resource type="Texture2D" path="res://assets/creatures/weeping_flounder_juvenile.png" id="3"]
+[ext_resource type="Texture2D" path="res://assets/creatures/weeping_flounder_adult.png" id="4"]
+
+[resource]
+script = ExtResource("1")
+id = "weeping_flounder"
+display_name = "哭面鲽"
+description = "趴在海底，朝上的那一面是一张人脸。它一直在哭，哭的是谁，它也不知道。"
+icon = ExtResource("2")
+icon_juvenile = ExtResource("3")
+icon_adult = ExtResource("4")
+preferences = {"grudge": 0.9, "filth": 0.3, "glow": -0.4}
+rarity_weight = 0.6
+struggle = 0.4
+endurance = 7.0
+level_min = 1
+level_max = 2
+adult_body = 2
+yield_base = 4.0
+material_ratio = {"flesh": 0.55, "shell": 0.35, "glow": 0.1}
+motion_style = "flat"
+motion_amplitude = 0.015
+motion_speed = 0.7
+motion_wavelength = 2.0
+tribute_base = 400.0

@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="RewardCard" format=3]
+
+[ext_resource type="Script" path="res://scripts/data/reward_card.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/icons/reward_spare_bait.png" id="2"]
+
+[resource]
+script = ExtResource("1")
+id = "spare_bait"
+display_name = "余饵"
+description = "多给你一份万能饵。"
+duration = "立刻"
+icon = ExtResource("2")
+effect = "spare_bait"
+amount = 1.0
+uses = 1

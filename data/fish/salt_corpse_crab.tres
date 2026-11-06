@@ -1,0 +1,29 @@
+[gd_resource type="Resource" script_class="FishData" format=3]
+
+[ext_resource type="Script" path="res://scripts/data/fish_data.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/creatures/salt_corpse_crab.png" id="2"]
+[ext_resource type="Texture2D" path="res://assets/creatures/salt_corpse_crab_juvenile.png" id="3"]
+[ext_resource type="Texture2D" path="res://assets/creatures/salt_corpse_crab_adult.png" id="4"]
+
+[resource]
+script = ExtResource("1")
+id = "salt_corpse_crab"
+display_name = "盐尸蟹"
+description = "背壳上结着一层盐霜，壳底下塞满了它从沉船里拖出来的东西。"
+icon = ExtResource("2")
+icon_juvenile = ExtResource("3")
+icon_adult = ExtResource("4")
+preferences = {"rot": 1.0, "filth": 0.5, "blood": -0.3}
+rarity_weight = 0.8
+struggle = 0.5
+endurance = 6.0
+level_min = 2
+level_max = 3
+adult_body = 2
+yield_base = 6.5
+material_ratio = {"flesh": 0.2, "shell": 0.75, "glow": 0.05}
+motion_style = "crab"
+motion_amplitude = 0.012
+motion_speed = 0.6
+motion_wavelength = 2.2
+tribute_base = 230.0

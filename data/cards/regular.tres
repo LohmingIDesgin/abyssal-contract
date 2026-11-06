@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="RewardCard" format=3]
+
+[ext_resource type="Script" path="res://scripts/data/reward_card.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/icons/boon_regular.png" id="2"]
+
+[resource]
+script = ExtResource("1")
+id = "regular"
+display_name = "冥市熟客"
+description = "冥市船的价钱 −30%，碰上冥市船的机会翻倍。"
+duration = "永久 · 海上事件"
+icon = ExtResource("2")
+effect = "regular"
+amount = 0.3
+uses = 0
+cap = 2.0
+permanent = true
+tags = PackedStringArray("resource")

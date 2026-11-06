@@ -1,0 +1,29 @@
+[gd_resource type="Resource" script_class="FishData" format=3]
+
+[ext_resource type="Script" path="res://scripts/data/fish_data.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/creatures/soul_jelly.png" id="2"]
+[ext_resource type="Texture2D" path="res://assets/creatures/soul_jelly_juvenile.png" id="3"]
+[ext_resource type="Texture2D" path="res://assets/creatures/soul_jelly_adult.png" id="4"]
+
+[resource]
+script = ExtResource("1")
+id = "soul_jelly"
+display_name = "磷魂母"
+description = "伞盖里漂着一粒粒小小的光。凑近了看，每一粒都是一张脸。"
+icon = ExtResource("2")
+icon_juvenile = ExtResource("3")
+icon_adult = ExtResource("4")
+preferences = {"glow": 1.0, "eye": 0.3, "rot": -0.5}
+rarity_weight = 0.5
+struggle = 0.35
+endurance = 6.5
+level_min = 2
+level_max = 3
+adult_body = 2
+yield_base = 4.5
+material_ratio = {"flesh": 0.15, "shell": 0.05, "glow": 0.8}
+motion_style = "jelly"
+motion_amplitude = 0.02
+motion_speed = 0.5
+motion_wavelength = 1.8
+tribute_base = 360.0

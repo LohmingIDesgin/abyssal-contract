@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="PromiseData" format=3]
+
+[ext_resource type="Script" path="res://scripts/data/promise_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = "beloved"
+display_name = "挚爱"
+line = "The one the tide took."
+thing = "被潮水带走的那个人"
+returns = PackedStringArray("被潮水带走的那个人回来了，记得你的名字，也记得你替祂熬过的每一夜。", "被潮水带走的那个人回来了，就站在码头上等你。", "被潮水带走的那个人回来了。只是那双手，一直是凉的。", "被潮水带走的那个人回来了，却叫不出你的名字。")

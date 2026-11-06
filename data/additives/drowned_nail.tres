@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="AdditiveData" format=3]
+
+[ext_resource type="Script" path="res://scripts/data/additive_data.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/additives/drowned_nail.png" id="2"]
+
+[resource]
+script = ExtResource("1")
+id = "drowned_nail"
+display_name = "溺死者的指甲"
+description = "从水里漂上来的，不知道主人还在不在。亡者的执念能把深处那些古老的东西引上来。"
+name_token = "甲"
+aspect = "grudge"
+strength = 1.2
+icon = ExtResource("2")
+unlimited = false

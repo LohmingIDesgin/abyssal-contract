@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="RewardCard" format=3]
+
+[ext_resource type="Script" path="res://scripts/data/reward_card.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/icons/reward_feast.png" id="2"]
+
+[resource]
+script = ExtResource("1")
+id = "feast"
+display_name = "饱餐"
+description = "一顿热食，饱腹立刻 +40。"
+duration = "立刻"
+icon = ExtResource("2")
+effect = "feast"
+amount = 40.0
+uses = 1

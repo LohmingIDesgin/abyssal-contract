@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="RewardCard" format=3]
+
+[ext_resource type="Script" path="res://scripts/data/reward_card.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/icons/boon_bait_heart.png" id="2"]
+
+[resource]
+script = ExtResource("1")
+id = "bait_heart"
+display_name = "饵心"
+description = "用两份相同的基础材料做饵，多得一份同样的饵。"
+duration = "永久 · 每夜两次"
+icon = ExtResource("2")
+effect = "bait_heart"
+amount = 1.0
+uses = 2
+cap = 0.0
+permanent = true
+tags = PackedStringArray("resource")

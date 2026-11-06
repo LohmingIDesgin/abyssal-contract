@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="AffixData" format=3]
+
+[ext_resource type="Script" path="res://scripts/data/affix_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = "glow_gland"
+display_name = "磷腺"
+description = "皮下有一串发光的腺体，一跳一跳的。"
+weight = 0.8
+food_mult = 1.0
+energy_mult = 1.0
+material_mults = {"glow": 2.0}
+tribute_bonus = 0.08

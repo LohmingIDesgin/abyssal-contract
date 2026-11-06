@@ -1,0 +1,29 @@
+[gd_resource type="Resource" script_class="FishData" format=3]
+
+[ext_resource type="Script" path="res://scripts/data/fish_data.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/creatures/bloodtooth_pomfret.png" id="2"]
+[ext_resource type="Texture2D" path="res://assets/creatures/bloodtooth_pomfret_juvenile.png" id="3"]
+[ext_resource type="Texture2D" path="res://assets/creatures/bloodtooth_pomfret_adult.png" id="4"]
+
+[resource]
+script = ExtResource("1")
+id = "bloodtooth_pomfret"
+display_name = "血齿冥鲳"
+description = "只吃新鲜的东西，牙齿是红色的。"
+icon = ExtResource("2")
+icon_juvenile = ExtResource("3")
+icon_adult = ExtResource("4")
+preferences = {"blood": 1.0, "rot": -0.5}
+rarity_weight = 1.0
+struggle = 0.45
+endurance = 6.5
+level_min = 1
+level_max = 2
+adult_body = 2
+yield_base = 4.0
+material_ratio = {"flesh": 0.75, "shell": 0.15, "glow": 0.1}
+motion_style = "fish"
+motion_amplitude = 0.035
+motion_speed = 1.4
+motion_wavelength = 1.4
+tribute_base = 380.0

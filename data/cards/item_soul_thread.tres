@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="RewardCard" format=3]
+
+[ext_resource type="Script" path="res://scripts/data/reward_card.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/icons/soul_thread.png" id="2"]
+
+[resource]
+script = ExtResource("1")
+id = "item_soul_thread"
+display_name = "续魂丝"
+description = "拿到一卷续魂丝：随时缠到线轮上，补回一枚烙印。"
+duration = "道具"
+icon = ExtResource("2")
+effect = "item"
+amount = 1.0
+uses = 1
+item_id = "soul_thread"
+over_only = true

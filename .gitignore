@@ -1,0 +1,32 @@
+.godot/
+/android/
+*.tmp
+tools/.bake_cache_*.npz
+__pycache__/
+
+# 美术源文件（高精度原件，游戏里用的是转出来的精简版）
+art_src/
+
+# Codex 的美术工作文件夹和交付包（接进 assets/ 以后不进仓库）
+output/
+
+# Local captures, upload receipts, and editor-only references
+artifacts/
+docs/reference/
+mobile-video-upload.json
+*.mp4
+*.avi
+*.log
+Thumbs.db
+.DS_Store
+
+# Local credentials and machine-specific settings
+.env
+.env.*
+!.env.example
+.codex/
+.agents/
+.aws/
+export_credentials.cfg
+*.pem
+*.key

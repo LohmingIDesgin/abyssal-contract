@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="RewardCard" format=3]
+
+[ext_resource type="Script" path="res://scripts/data/reward_card.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/icons/boon_crown_catch.png" id="2"]
+
+[resource]
+script = ExtResource("1")
+id = "crown_catch"
+display_name = "渔获加冕"
+description = "每次供奉，献上的最值钱的那一条，再加它祭值的 30%。"
+duration = "永久 · 供奉时"
+icon = ExtResource("2")
+effect = "crown_catch"
+amount = 0.3
+uses = 0
+cap = 0.0
+permanent = true
+tags = PackedStringArray("tribute")

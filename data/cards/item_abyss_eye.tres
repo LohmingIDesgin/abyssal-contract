@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="RewardCard" format=3]
+
+[ext_resource type="Script" path="res://scripts/data/reward_card.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/icons/abyss_eye.png" id="2"]
+
+[resource]
+script = ExtResource("1")
+id = "item_abyss_eye"
+display_name = "窥渊之眼"
+description = "拿到一只窥渊之眼：上钩以后捏碎它，看清线那头是什么。"
+duration = "道具"
+icon = ExtResource("2")
+effect = "item"
+amount = 1.0
+uses = 1
+item_id = "abyss_eye"
+over_only = true

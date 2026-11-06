@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="RewardCard" format=3]
+
+[ext_resource type="Script" path="res://scripts/data/reward_card.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/icons/boon_bone_pick.png" id="2"]
+
+[resource]
+script = ExtResource("1")
+id = "bone_pick"
+display_name = "剔骨"
+description = "分解时，多剔出一份它身上最多的那种材料。"
+duration = "永久 · 每夜头三次"
+icon = ExtResource("2")
+effect = "bone_pick"
+amount = 1.0
+uses = 3
+cap = 0.0
+permanent = true
+tags = PackedStringArray("resource")

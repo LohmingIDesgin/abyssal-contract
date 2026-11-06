@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="ItemData" format=3]
+
+[ext_resource type="Script" path="res://scripts/data/item_data.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/icons/soul_thread.png" id="2"]
+
+[resource]
+script = ExtResource("1")
+id = "soul_thread"
+display_name = "续魂丝"
+description = "一小卷泛着蓝光的丝，像是从谁身上抽出来的。缠到线轮上，补回一枚烙印（最多三枚）。"
+icon = ExtResource("2")
+effect = "brand"

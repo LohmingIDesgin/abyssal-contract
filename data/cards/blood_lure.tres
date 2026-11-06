@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="RewardCard" format=3]
+
+[ext_resource type="Script" path="res://scripts/data/reward_card.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/icons/boon_blood_lure.png" id="2"]
+
+[resource]
+script = ExtResource("1")
+id = "blood_lure"
+display_name = "血诱"
+description = "生吞一条以后，这一夜下一次咬钩的，有 35% 是比你高一级的（照样要搏斗）。"
+duration = "永久 · 每夜一次"
+icon = ExtResource("2")
+effect = "blood_lure"
+amount = 0.35
+uses = 1
+cap = 0.0
+permanent = true
+tags = PackedStringArray("capture", "tribute")

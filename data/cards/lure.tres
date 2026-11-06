@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="RewardCard" format=3]
+
+[ext_resource type="Script" path="res://scripts/data/reward_card.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/icons/reward_depth.png" id="2"]
+
+[resource]
+script = ExtResource("1")
+id = "lure"
+display_name = "引深"
+description = "下一夜第一次咬钩的，换成比你高一级的生物，不用搏斗，直接钓上来。"
+duration = "一次"
+icon = ExtResource("2")
+effect = "lure"
+amount = 1.0
+uses = 1

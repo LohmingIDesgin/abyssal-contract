@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="PromiseData" format=3]
+
+[ext_resource type="Script" path="res://scripts/data/promise_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = "years"
+display_name = "寿数"
+line = "The years that were stolen from you."
+thing = "被夺走的寿数"
+returns = PackedStringArray("被夺走的寿数还给了你，一年不少。祂还多给了几年——别问那几年是谁的。", "被夺走的寿数还给了你，一年不少。", "被夺走的寿数还回来了。只是每到黄昏，你会忍不住望向海。", "被夺走的寿数还回来了，数得出的那几年，都是夜里。")

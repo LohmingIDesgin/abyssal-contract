@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="RewardCard" format=3]
+
+[ext_resource type="Script" path="res://scripts/data/reward_card.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/icons/boon_carcass.png" id="2"]
+
+[resource]
+script = ExtResource("1")
+id = "carcass"
+display_name = "残躯为饵"
+description = "分解一条以后，这一夜下一条留下的渔获，祭值 +30%。"
+duration = "永久 · 每夜两次"
+icon = ExtResource("2")
+effect = "carcass"
+amount = 0.3
+uses = 2
+cap = 0.0
+permanent = true
+tags = PackedStringArray("resource", "tribute")

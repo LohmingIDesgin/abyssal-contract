@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="AffixData" format=3]
+
+[ext_resource type="Script" path="res://scripts/data/affix_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = "blood_rich"
+display_name = "血旺"
+description = "一刀下去，血止不住地往外冒。"
+weight = 1.0
+food_mult = 1.0
+energy_mult = 1.0
+material_mults = {"flesh": 1.7}
+tribute_bonus = 0.12

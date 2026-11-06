@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="RewardCard" format=3]
+
+[ext_resource type="Script" path="res://scripts/data/reward_card.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/icons/boon_abyss_walker.png" id="2"]
+
+[resource]
+script = ExtResource("1")
+id = "abyss_walker"
+display_name = "深渊行者"
+description = "在比你的能力档更深的水里搏斗，体力消耗 −35%。"
+duration = "永久 · 往深处去"
+icon = ExtResource("2")
+effect = "abyss_walker"
+amount = 0.35
+uses = 0
+cap = 0.0
+permanent = true
+tags = PackedStringArray("capture")

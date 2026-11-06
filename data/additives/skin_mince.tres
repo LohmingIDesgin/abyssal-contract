@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="AdditiveData" format=3]
+
+[ext_resource type="Script" path="res://scripts/data/additive_data.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/additives/skin_mince.png" id="2"]
+
+[resource]
+script = ExtResource("1")
+id = "skin_mince"
+display_name = "皮屑肉糜混合物"
+description = "从你自己身上搓下来的皮屑，拌着剁碎的边角肉。什么时候都凑得出一份，也什么都不特别招。"
+name_token = ""
+aspect = ""
+strength = 1.2
+icon = ExtResource("2")
+unlimited = true

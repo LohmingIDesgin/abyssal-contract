@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="RewardCard" format=3]
+
+[ext_resource type="Script" path="res://scripts/data/reward_card.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/icons/boon_overflow.png" id="2"]
+
+[resource]
+script = ExtResource("1")
+id = "overflow"
+display_name = "满溢之献"
+description = "超额线从需求的 150% 降到 135%；超额的那一夜，下一夜的补给多一份万能饵。"
+duration = "永久 · 供奉时"
+icon = ExtResource("2")
+effect = "overflow"
+amount = 1.35
+uses = 0
+cap = 1.0
+permanent = true
+tags = PackedStringArray("tribute", "resource")

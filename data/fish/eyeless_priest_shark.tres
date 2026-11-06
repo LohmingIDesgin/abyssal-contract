@@ -1,0 +1,29 @@
+[gd_resource type="Resource" script_class="FishData" format=3]
+
+[ext_resource type="Script" path="res://scripts/data/fish_data.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/creatures/eyeless_priest_shark.png" id="2"]
+[ext_resource type="Texture2D" path="res://assets/creatures/eyeless_priest_shark_juvenile.png" id="3"]
+[ext_resource type="Texture2D" path="res://assets/creatures/eyeless_priest_shark_adult.png" id="4"]
+
+[resource]
+script = ExtResource("1")
+id = "eyeless_priest_shark"
+display_name = "无目祭司鲛"
+description = "没有眼睛，皮披在身上像一件祭袍。它游过的地方，别的东西都不敢动。"
+icon = ExtResource("2")
+icon_juvenile = ExtResource("3")
+icon_adult = ExtResource("4")
+preferences = {"blood": 1.0, "rot": 0.3, "glow": -0.6}
+rarity_weight = 0.15
+struggle = 0.5
+endurance = 7.0
+level_min = 4
+level_max = 5
+adult_body = 3
+yield_base = 6.0
+material_ratio = {"flesh": 0.6, "shell": 0.3, "glow": 0.1}
+motion_style = "fish"
+motion_amplitude = 0.025
+motion_speed = 1.0
+motion_wavelength = 1.4
+tribute_base = 280.0

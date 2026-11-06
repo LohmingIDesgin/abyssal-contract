@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="AffixData" format=3]
+
+[ext_resource type="Script" path="res://scripts/data/affix_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = "mutated"
+display_name = "变异"
+description = "长出了不该长的东西，还在动。"
+weight = 0.0
+food_mult = 1.0
+energy_mult = 1.0
+material_mults = {}
+tribute_bonus = 1.0
+special = true
+chance = 0.01

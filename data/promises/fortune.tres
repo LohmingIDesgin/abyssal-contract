@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="PromiseData" format=3]
+
+[ext_resource type="Script" path="res://scripts/data/promise_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = "fortune"
+display_name = "财富"
+line = "The fortune the sea swallowed."
+thing = "被海吞没的家财"
+returns = PackedStringArray("被海吞没的家财漂回了岸边，箱底还多出几枚你不认得的金币。", "被海吞没的家财漂回了岸边，一枚也没少。", "被海吞没的家财回来了，每一枚金币都带着咸腥。", "被海吞没的家财回来了，摸上去却像鱼鳞。")

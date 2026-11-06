@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="RewardCard" format=3]
+
+[ext_resource type="Script" path="res://scripts/data/reward_card.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/icons/reward_dissection.png" id="2"]
+
+[resource]
+script = ExtResource("1")
+id = "dissect"
+display_name = "剖腹"
+description = "处理拿到的材料都翻倍。"
+duration = "下一夜每一次处理"
+icon = ExtResource("2")
+effect = "dissect"
+amount = 2.0
+uses = 0

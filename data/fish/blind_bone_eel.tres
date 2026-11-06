@@ -1,0 +1,29 @@
+[gd_resource type="Resource" script_class="FishData" format=3]
+
+[ext_resource type="Script" path="res://scripts/data/fish_data.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/creatures/blind_bone_eel.png" id="2"]
+[ext_resource type="Texture2D" path="res://assets/creatures/blind_bone_eel_juvenile.png" id="3"]
+[ext_resource type="Texture2D" path="res://assets/creatures/blind_bone_eel_adult.png" id="4"]
+
+[resource]
+script = ExtResource("1")
+id = "blind_bone_eel"
+display_name = "盲眼噬骸鳗"
+description = "没有眼睛，靠嗅腐臭找食。讨厌光。"
+icon = ExtResource("2")
+icon_juvenile = ExtResource("3")
+icon_adult = ExtResource("4")
+preferences = {"rot": 1.0, "filth": 0.5, "glow": -0.8}
+rarity_weight = 0.8
+struggle = 0.5
+endurance = 7.0
+level_min = 2
+level_max = 3
+adult_body = 3
+yield_base = 5.0
+material_ratio = {"flesh": 0.25, "shell": 0.6, "glow": 0.15}
+motion_style = "eel"
+motion_amplitude = 0.06
+motion_speed = 0.9
+motion_wavelength = 0.75
+tribute_base = 270.0

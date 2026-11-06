@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="AffixData" format=3]
+
+[ext_resource type="Script" path="res://scripts/data/affix_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = "soul_dense"
+display_name = "魂蕴"
+description = "看久了，觉得它也在看你。"
+weight = 0.6
+food_mult = 1.0
+energy_mult = 1.0
+material_mults = {}
+tribute_bonus = 0.25
+soul_bonus = 20.0

@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="PromiseData" format=3]
+
+[ext_resource type="Script" path="res://scripts/data/promise_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = "crown"
+display_name = "权柄"
+line = "The crown that was torn from you."
+thing = "被夺去的权柄"
+returns = PackedStringArray("被夺去的权柄回到你手里，比当年更重。夺走它的人跪在你面前。", "被夺去的权柄回到你手里，分毫不差。", "被夺去的权柄回来了。王座底下，总有海水渗上来。", "被夺去的权柄回来了，可再没有人肯听你的话。")

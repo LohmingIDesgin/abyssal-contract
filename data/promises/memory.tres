@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="PromiseData" format=3]
+
+[ext_resource type="Script" path="res://scripts/data/promise_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = "memory"
+display_name = "记忆"
+line = "The memories you drowned."
+thing = "你亲手溺死的记忆"
+returns = PackedStringArray("你亲手溺死的记忆浮了上来，一段不缺；连你以为早已忘了的，也一并还给了你。", "你亲手溺死的记忆浮了上来，一段不缺。", "你亲手溺死的记忆浮了上来，泡得有些发白。", "浮上来的记忆是你的，可里面那个人，不是你。")

@@ -1,0 +1,29 @@
+[gd_resource type="Resource" script_class="FishData" format=3]
+
+[ext_resource type="Script" path="res://scripts/data/fish_data.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/creatures/bonespine_killifish.png" id="2"]
+[ext_resource type="Texture2D" path="res://assets/creatures/bonespine_killifish_juvenile.png" id="3"]
+[ext_resource type="Texture2D" path="res://assets/creatures/bonespine_killifish_adult.png" id="4"]
+
+[resource]
+script = ExtResource("1")
+id = "bonespine_killifish"
+display_name = "骨刺鳉"
+description = "背上竖着一排白骨似的刺。扎破了手指，血它会追很久。"
+icon = ExtResource("2")
+icon_juvenile = ExtResource("3")
+icon_adult = ExtResource("4")
+preferences = {"rot": 0.6, "filth": 0.3}
+rarity_weight = 0.9
+struggle = 0.45
+endurance = 6.0
+level_min = 1
+level_max = 2
+adult_body = 1
+yield_base = 3.5
+material_ratio = {"flesh": 0.3, "shell": 0.6, "glow": 0.1}
+motion_style = "fish"
+motion_amplitude = 0.03
+motion_speed = 1.6
+motion_wavelength = 1.1
+tribute_base = 300.0

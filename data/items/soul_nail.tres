@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="ItemData" format=3]
+
+[ext_resource type="Script" path="res://scripts/data/item_data.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/icons/soul_nail.png" id="2"]
+
+[resource]
+script = ExtResource("1")
+id = "soul_nail"
+display_name = "镇魂钉"
+description = "一枚生锈的长钉。搏斗时钉进船舷，能稳住你的魂：这一场按你高一级算。"
+icon = ExtResource("2")
+effect = "steady"

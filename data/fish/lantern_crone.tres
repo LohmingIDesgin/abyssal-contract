@@ -1,0 +1,30 @@
+[gd_resource type="Resource" script_class="FishData" format=3]
+
+[ext_resource type="Script" path="res://scripts/data/fish_data.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/creatures/lantern_crone.png" id="2"]
+[ext_resource type="Texture2D" path="res://assets/creatures/lantern_crone_juvenile.png" id="3"]
+[ext_resource type="Texture2D" path="res://assets/creatures/lantern_crone_adult.png" id="4"]
+
+[resource]
+script = ExtResource("1")
+id = "lantern_crone"
+display_name = "磷灯婆"
+description = "头顶挂着一盏灯，灯下是一张老妇人的脸。"
+icon = ExtResource("2")
+icon_juvenile = ExtResource("3")
+icon_adult = ExtResource("4")
+preferences = {"glow": 1.0, "cold": 0.3, "eye": 0.2}
+rarity_weight = 0.5
+struggle = 0.4
+endurance = 7.0
+level_min = 1
+level_max = 3
+adult_body = 2
+yield_base = 4.0
+material_ratio = {"flesh": 0.2, "shell": 0.15, "glow": 0.65}
+motion_style = "lantern"
+motion_head_limbs = true
+motion_amplitude = 0.022
+motion_speed = 0.5
+motion_wavelength = 1.5
+tribute_base = 420.0

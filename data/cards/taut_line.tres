@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="RewardCard" format=3]
+
+[ext_resource type="Script" path="res://scripts/data/reward_card.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/icons/boon_taut_line.png" id="2"]
+
+[resource]
+script = ExtResource("1")
+id = "taut_line"
+display_name = "韧线"
+description = "搏斗里体力消耗一直 −15%。"
+duration = "永久"
+icon = ExtResource("2")
+effect = "taut_line"
+amount = 0.15
+uses = 0
+cap = 0.0
+permanent = true
+tags = PackedStringArray("capture")

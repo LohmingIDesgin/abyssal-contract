@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="AdditiveData" format=3]
+
+[ext_resource type="Script" path="res://scripts/data/additive_data.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/additives/rotten_harpy_egg.png" id="2"]
+
+[resource]
+script = ExtResource("1")
+id = "rotten_harpy_egg"
+display_name = "坏怪鸟蛋"
+description = "摇一摇能听见里面有东西在抓蛋壳。腐味冲得很，啃骨头的东西闻着就来；嫌腥臭的会躲开。"
+name_token = "卵"
+aspect = "rot"
+strength = 1.2
+icon = ExtResource("2")
+unlimited = false

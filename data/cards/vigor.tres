@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="RewardCard" format=3]
+
+[ext_resource type="Script" path="res://scripts/data/reward_card.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/icons/reward_vigor.png" id="2"]
+
+[resource]
+script = ExtResource("1")
+id = "vigor"
+display_name = "壮魂"
+description = "体力多撑一倍：搏斗里体力掉得慢一半。"
+duration = "下一夜每一场搏斗"
+icon = ExtResource("2")
+effect = "vigor"
+amount = 1.0
+uses = 0

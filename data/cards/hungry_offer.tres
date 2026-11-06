@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="RewardCard" format=3]
+
+[ext_resource type="Script" path="res://scripts/data/reward_card.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/icons/boon_hungry_offer.png" id="2"]
+
+[resource]
+script = ExtResource("1")
+id = "hungry_offer"
+display_name = "空腹之献"
+description = "饱腹低于 60 时供奉，献上的总祭值 +15%。"
+duration = "永久 · 供奉时"
+icon = ExtResource("2")
+effect = "hungry_offer"
+amount = 0.15
+uses = 0
+cap = 60.0
+permanent = true
+tags = PackedStringArray("tribute", "capture")

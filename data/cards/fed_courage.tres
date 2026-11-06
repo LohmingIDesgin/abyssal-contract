@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="RewardCard" format=3]
+
+[ext_resource type="Script" path="res://scripts/data/reward_card.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/icons/boon_fed_courage.png" id="2"]
+
+[resource]
+script = ExtResource("1")
+id = "fed_courage"
+display_name = "饱食之勇"
+description = "生吞一条以后，下一场搏斗体力消耗 −40%。"
+duration = "永久 · 吃了以后的下一场"
+icon = ExtResource("2")
+effect = "fed_courage"
+amount = 0.4
+uses = 0
+cap = 0.0
+permanent = true
+tags = PackedStringArray("capture")

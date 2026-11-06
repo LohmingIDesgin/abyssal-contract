@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="RewardCard" format=3]
+
+[ext_resource type="Script" path="res://scripts/data/reward_card.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/icons/boon_oddity.png" id="2"]
+
+[resource]
+script = ExtResource("1")
+id = "oddity"
+display_name = "异象收藏"
+description = "船舱里带「变色」「变异」的渔获，每过一夜祭值 +25%（最多 +75%）；带着它，特殊词条多出五成。"
+duration = "永久 · 每过一夜"
+icon = ExtResource("2")
+effect = "oddity"
+amount = 0.25
+uses = 0
+cap = 0.75
+permanent = true
+tags = PackedStringArray("tribute")
